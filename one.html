@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Your Reservation</title>
+  <link rel="stylesheet" href="one.css">
+</head>
+<body>
+  <div class="container">
+    <h2>BOOK YOUR <span>RESERVATION</span></h2>
+
+    <!-- Summary Card with image on top -->
+    <div class="summary-card">
+      <img src="https://via.placeholder.com/300x150" alt="Resort Image">
+      <h4>King's Land</h4>
+      <p>by Hilton Grand Vacations</p>
+      <div class="date-details">
+        <p><strong>Check In:</strong> 07/05/2025</p>
+        <p><strong>Check Out:</strong> 07/09/2025</p>
+      </div>
+      <p><strong>Booking Details:</strong><br>Studio Premier<br>2 Adults, 1 Child</p>
+      <hr>
+      <p><strong>Purchase Summary:</strong></p>
+      <p>Points: 4,000</p>
+      <p>Reservation Fee: $89.00</p>
+      <hr>
+      <p><strong>Total Points:</strong> 4,000</p>
+      <p><strong>Total Cash Payment:</strong> $89.00</p>
+    </div>
+
+    <!-- Form Section -->
+    <form class="form">
+      <!-- 1. OWNER INFORMATION -->
+      <section>
+        <h3>1. OWNER <span>INFORMATION</span></h3>
+        <label for="policy-number">OWNER POLICY/ARDA NUMBER</label>
+        <select id="policy-number">
+          <option>840005061633</option>
+        </select>
+
+        <div class="info-grid">
+          <div>
+            <p><strong>Owner</strong><br>Helen Johnson</p>
+            <p><strong>Email Address</strong><br>helen@example.com</p>
+          </div>
+          <div>
+            <p><strong>Address</strong><br>123 Main Street<br>Orlando, FL 32836</p>
+            <p><strong>Phone Number</strong><br>(407) 555-4000</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. IMPORTANT INFORMATION -->
+      <section>
+        <h3>2. IMPORTANT <span>INFORMATION</span></h3>
+        <div class="highlight-box">
+          <ul>
+            <li>Valid Credit Card will be needed at check-in. 21 is the minimum age for check-in.</li>
+            <li>Daily cleaning service available @ $20.00 USD per night plus tax.</li>
+            <li>Children stay free.</li>
+            <li>Max 4 guests per room.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- 3. CANCELLATION POLICY -->
+      <section>
+        <h3>3. RESERVATION CANCELLATION & <span>CHANGE POLICY</span></h3>
+        <p>
+          Reservations cancelled within 15 days of arrival are non-refundable and will result in a forfeiture of points.
+          Modifications are not permitted. A no-show is considered the same.
+        </p>
+        <label><input type="checkbox"> I have read and understood the reservation cancellation and change policy</label>
+      </section>
+
+      <!-- 4. POLICIES -->
+      <section>
+        <h3>4. RESERVATION <span>POLICIES</span></h3>
+        <div class="highlight-box">
+          <p>
+            These Reservation Policies ("Reservation Policies") apply to your use of Direct Exchange reservations. Please review the Terms and Conditions...
+          </p>
+        </div>
+        <label><input type="checkbox"> I agree to the above selections and policies</label>
+      </section>
+
+      <!-- Buttons -->
+      <div class="button-row">
+        <button type="button" class="cancel">CANCEL</button>
+        <button type="submit" class="next">NEXT</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

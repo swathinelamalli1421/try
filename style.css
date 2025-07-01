@@ -1,0 +1,219 @@
+body{
+    font-family:Arial, sans-serif;
+    margin:0;
+     background: #f9f9f9;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+    padding:20px;
+    background: white;
+}
+h3{
+    text-align:center;
+    font-size:23px;
+}
+h3 span,h4 span{
+    color:navy;
+    font-weight:bold;
+}
+/* .label choice{
+    font-size:10px;
+} */
+ .main{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+ }
+ /* .one{
+    flex:2;
+ } */
+  .section{
+    margin-bottom: 50px;
+  }
+.section h4{
+    font-size:18px;
+    margin-bottom:10px;
+    
+}
+label{
+    display:block;
+    margin:10px 0 5px;
+    font-weight:bold;
+    font-size:14px;
+}
+select{
+    width:80%;
+    padding:10px;
+    margin-bottom:8px;
+}
+/* .grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:auto auto ;
+} */
+ .grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:30px;
+    row-gap:20px;
+ }
+ .grid p{
+    color:gray;
+ }
+ .grid strong{
+    color:black;
+ }
+ .unorder{
+    background-color:#f2e3d2;
+    padding:10px;
+    line-height:30px;
+    color:#333;
+ }
+ .important{
+    margin-bottom:30px;;
+    
+}
+.reservation p{
+  font-style: normal;
+  line-height:20px;
+  margin-bottom:15px;
+  
+}
+
+
+
+input[type="checkbox"] {
+  transform: scale(1.5);  
+  margin-right:12px;
+  
+}
+.policies{
+    margin-top:50px;
+}
+.over{
+    height:150px;
+    overflow-y: scroll;
+    text-align:justify;
+    padding:10px;
+    background: #fff;
+    border:1px solid #ccc;
+    line-height:1.6;
+
+}
+.buttons{
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+    margin-top:60px;
+    /* padding:20px; */
+}
+.buttons button{
+    width:150px;
+    padding:6px 0px;
+    font-size:16px;
+    /* font-weight:bold; */
+    border-radius:16px;
+    cursor:pointer;
+    border:none;
+}
+.but1 button{
+    color:navy;
+    background-color:#fff;
+    border:1px solid navy;
+}
+.but1 button:hover{
+    background-color: navy;
+    color:#fff;
+}
+.but2 button{
+    background-color: navy;
+    color:#fff;
+}
+.but2 button:hover{
+     color:navy;
+    background-color:#fff;
+    border:1px solid navy; 
+}
+/* .right{
+    flex:1;
+} */
+hr{
+    width:80%;
+    /* margin:20px auto; */
+    /* height:2px; */
+    background-color: #ccc;
+    border:none;
+}
+
+.image {
+  background: #f3f3f3;
+  /* padding: 10px; */
+  border: 1px solid #ddd;
+}
+.total{
+    font-weight: bold;
+    /* background-color: gray; */
+    padding:8px 0;
+
+}
+
+.main{
+    display:flex;
+    justify-content: space-between;
+}
+/* .right h4{
+    text-align:center;
+    font-size: 20px;
+} */
+.right{
+    /* flex:1; */
+    max-width:400px;
+}
+
+/* .right p{
+    text-align: center;
+} */
+.flex{
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+   
+}
+.x{
+  border-left: 1px solid gray;
+  padding:10px;
+  
+
+}
+.all{
+    padding:10px;
+}
+.price-list{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.price-list li{
+    display:flex;
+    justify-content: space-between;
+    
+}
+/* .price-list li span:first-child{
+    padding-right: 70px;
+} */
+hr {
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+.purchase h5{
+    padding:10px 0px;
+}

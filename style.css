@@ -1,20 +1,38 @@
 *{
     padding:0;
     margin:0;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family:', Tahoma, Geneva, Verdana, sans-serif'; */
+    font-family:'Roboto', sans-serif ;
     box-sizing: border-box;
 }
-.container{
-    max-width:1200px;
-    margin:auto;
-    padding:20px;
-    background: white;
+body{
+    display:flex;
+    justify-content: center;
+    line-height:1.6;
+    /* background-color: #fff; */
+    padding:40px 0;
+    font-size:16px;
+     font-weight: 300;
+  /* color: #444; */
+
 }
-h3{
+ .container{
+    max-width: 1200px;
+    /* width:100px; */
+    margin:10px auto;
+    padding:40px 20px;
+    border-radius:10px;
+    
+}
+ 
+h2{
     text-align:center;
-    font-size:23px;
+    font-size:22px;
+    margin-bottom:20px;
+    font-weight: 300;
+    letter-spacing: 2px;
 }
-h3 span,h4 span{
+h2 span,h4 span{
     color:navy;
     font-weight:bold;
 }
@@ -22,33 +40,38 @@ h3 span,h4 span{
     display:flex;
     flex-wrap:wrap;
     gap:20px;
+    padding:30px 10px;
  }
 .section{
     margin-bottom: 50px;
   }
 .section h4{
-    font-size:18px;
-    margin-bottom:10px;
+    margin-bottom:20px;
+    /* letter-spacing:0cqb; */
+    font-family:Arial, Helvetica;
+    font-size:15px;
+    font-weight:300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color:#444;
+    
     
 }
 label{
-    display:block;
-    margin:10px 0 5px;
+    display:inline-block;
+    margin-right:60px;
     font-weight:bold;
-    font-size:14px;
+    font-size:15px;
+    letter-spacing: 1px;
+    font-size:15px;
+    font-weight:300;
 }
+
 select{
     width:80%;
     padding:10px;
     margin-bottom:20px;
 }
-/* .grid{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    gap:20px;
-   
-    
- }  */
 .grid{
     display:flex;
     flex-wrap: wrap;
@@ -64,13 +87,17 @@ select{
     color:black;
  }
  .unorder{
-    background-color:#f2e3d2;
+    background-color:#f1eae1;
     padding:25px;
     line-height:30px;
     margin-top:20px;
  }
 .important h4{
     margin-bottom:20px;
+    letter-spacing:2px;
+    font-size:15px;
+    font-weight:300;
+
     
 }
 .reservation p{
@@ -82,6 +109,10 @@ select{
 .reservation h4{
     margin-top:20px;
     padding:10px 0px;
+    letter-spacing:2px;
+    font-size:15px;
+    font-weight:300;
+
 }
 input[type="checkbox"] {
   transform: scale(1.5);  
@@ -89,7 +120,7 @@ input[type="checkbox"] {
   
 }
 .reserv p{
-    padding:20px 0px;
+    padding:5px 0px;
     line-height: 25px;
     color:#333;
 }
@@ -98,6 +129,10 @@ input[type="checkbox"] {
 }
 .policies h4{
     margin-bottom:20px;
+    letter-spacing:2px;
+    font-size:15px;
+    font-weight:300;
+
 }
 .over{
     height:150px;
@@ -118,13 +153,12 @@ label{
     flex-wrap: wrap;
     gap:30px;
     margin-top:60px;
-    /* padding:20px; */
+    
 }
 .buttons button{
     width:150px;
     padding:6px 0px;
     font-size:16px;
-    /* font-weight:bold; */
     border-radius:16px;
     cursor:pointer;
     border:none;
@@ -148,28 +182,21 @@ label{
     border:1px solid navy; 
 }
 .image {
-  background: #f3f3f3;
-  /* padding: 10px; */
+  background: #fff;
   border: 1px solid #ddd;
 }
 .total{
     font-weight: bold;
-    /* background-color: gray; */
     padding:8px 0;
 
 }
 .main{
     display:flex;
     justify-content: space-between;
-}
-/* .right{
-    /* flex:1; */
-    /* max-width:400px; */
-/* } */ 
+} 
 
 .flex{
     display:flex;
-    /* flex-wrap: wrap; */
     justify-content: center;
     align-items:center;
     gap:20px;
@@ -180,7 +207,7 @@ label{
   padding:10px;
 }
 .all{
-    padding:20px;
+    padding:20px 20px 0 20px;;;
 }
 .price-list{
     list-style:none;
@@ -191,7 +218,8 @@ label{
     display:flex;
     justify-content: space-between;
     line-height:25px;
-    color: #333;
+    color: #f8f6f6;
+    font-size:15px;
     
 }
 hr {
@@ -202,17 +230,38 @@ hr {
 }
 .price{
    list-style:none;
-    padding:0;
+    padding:0px;
     margin:0; 
-    /* background-color: gray; */
+   
 }
 .price li{
     display:flex;
     justify-content: space-between;
+    font-size:14px;
+    font-weight:bold;
+    color:black;
+    background-color: rgb(210, 207, 207);
+    padding:10px;
 }
 .purchase h5{
-    font-size:15px;
+    font-size:10px;
+    color:black;
 }
+.all p{
+    font-size:14px;
+    color:#666;
+}
+.all h5{
+    font-size: 15px;
+    font-weight:bold;
+    color:#1A1A1A;
+}
+.flex p{
+ font-size:14px;
+ font-weight:medium;
+ color:#666;
+}
+
  @media (max-width: 768px) {
       .main {
         flex-direction: column;
